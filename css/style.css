@@ -1,0 +1,20 @@
+#about{
+	background-color: #00A29A !important;
+}
+
+.bg-primary {
+  background-color: #DAE000 !important;
+}
+
+.bg-secondary{
+	background-color: #00A29A !important;
+}
+.tag::before{
+	content: '応募方法';
+}
+.flex{
+	display:flex !important;
+}
+.bg-green{
+	background:#006934;
+}
