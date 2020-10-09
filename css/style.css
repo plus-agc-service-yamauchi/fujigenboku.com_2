@@ -4,7 +4,21 @@
     font-family: bunkyu;
     font-style: normal;
     font-weight: normal;
-    src: url(../fonts/ToppanBunkyuGothicPr6N.ttc) format('truetype');
+    src: url(../font/FOT_DNPShueiMGoStd-L.woff) format('woff');
+}
+
+@font-face {
+    font-family: any_name;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/any_name.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: tsukumin;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/TsukuARdGothicStd-R.otf) format('opentype');
 }
 
 #about {
@@ -33,4 +47,118 @@
 
 .myFont {
     font-family: 'bunkyu';
+}
+
+.any_name {
+    font-family:'any_name';
+}
+
+.tsukumin{
+    font-family:'tsukumin';
+}
+
+.headliner {
+    background: url(../img/hero.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.entry {
+    position: absolute;
+    left: -70px;
+    top: -70px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background: #00a199;
+    color: #fff000;
+    text-align: center;
+    line-height: 500px;
+}
+
+.event-title {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+
+a.scroller {
+    padding-top: 60px;
+}
+
+a.scroller span {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+a.scroller span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sdb {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+h5.midashi {
+    position: relative;
+    padding: 0.6em;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px, #ffe4b1 3px, #ffe4b1 8px);
+    background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px, #ffe4b1 3px, #ffe4b1 8px);
+    border-radius: 7px;
 }
