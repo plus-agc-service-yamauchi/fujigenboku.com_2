@@ -1,20 +1,36 @@
-#about{
-	background-color: #00A29A !important;
+@charset "UTF-8";
+
+@font-face {
+    font-family: bunkyu;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/ToppanBunkyuGothicPr6N.ttc) format('truetype');
+}
+
+#about {
+    background-color: #00A29A !important;
 }
 
 .bg-primary {
-  background-color: #DAE000 !important;
+    background-color: #DAE000 !important;
 }
 
-.bg-secondary{
-	background-color: #00A29A !important;
+.bg-secondary {
+    background-color: #00A29A !important;
 }
-.tag::before{
-	content: '応募方法';
+
+.tag::before {
+    content: '応募方法';
 }
-.flex{
-	display:flex !important;
+
+.flex {
+    display: flex !important;
 }
-.bg-green{
-	background:#006934;
+
+.bg-green {
+    background: #006934;
+}
+
+.myFont {
+    font-family: 'bunkyu';
 }
