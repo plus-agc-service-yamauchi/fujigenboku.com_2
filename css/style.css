@@ -71,6 +71,7 @@
         line-height: 300px;
     }
 }
+
 @media screen and (max-width:1112px) {
 
     /*　画面サイズが768px以上の場合読み込む　*/
