@@ -63,12 +63,12 @@
         left: -50px;
         top: -50px;
         border-radius: 50%;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         background: #00a199;
         color: #fff000;
         text-align: center;
-        line-height: 300px;
+        line-height: 200px;
     }
 }
 
@@ -77,8 +77,8 @@
     /*　画面サイズが768px以上の場合読み込む　*/
     .entry {
         position: absolute;
-        left: -50px;
-        top: -50px;
+        left: -70px;
+        top: -70px;
         border-radius: 50%;
         width: 300px;
         height: 300px;
@@ -89,39 +89,6 @@
     }
 }
 
-@media screen and (max-width:2304px) {
-
-    /*　画面サイズが768px以上の場合読み込む　*/
-    .entry {
-        position: absolute;
-        left: -50px;
-        top: -50px;
-        border-radius: 50%;
-        width: 250px;
-        height: 250px;
-        background: #00a199;
-        color: #fff000;
-        text-align: center;
-        line-height: 250px;
-    }
-}
-
-@media screen and (max-width:5120px) {
-
-    /*　画面サイズが768px以上の場合読み込む　*/
-    .entry {
-        position: absolute;
-        left: -50px;
-        top: -50px;
-        border-radius: 50%;
-        width: 500px;
-        height: 500px;
-        background: #00a199;
-        color: #fff000;
-        text-align: center;
-        line-height: 500px;
-    }
-}
 
 #about {
     background-color: #00A29A !important;
@@ -179,7 +146,7 @@ a.scroller {
 
 a.scroller span {
     position: absolute;
-    bottom: 0;
+    bottom: 8rem;
     left: 50%;
     width: 30px;
     height: 50px;
