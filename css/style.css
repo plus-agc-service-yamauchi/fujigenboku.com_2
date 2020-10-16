@@ -71,6 +71,12 @@
         line-height: 200px;
     }
 }
+.border{
+    border-color: #ffffff !important;
+    border-width: 20px !important;
+}
+
+
 
 @media screen and (max-width:1112px) {
 
